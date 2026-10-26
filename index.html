@@ -166,7 +166,7 @@
                 background: var(--gold);
             }
             h1 {
-                font-size: clamp(2.3rem, 5vw, 4.4rem);
+                font-size: clamp(2.3rem, 5vw, 3.4rem);
                 line-height: 1.08;
                 letter-spacing: -0.045em;
                 margin: 18px 0 14px;
@@ -201,7 +201,7 @@
                 font-size: 1.8rem;
                 font-weight: 900;
                 box-shadow: 0 10px 30px #0002;
-                border: 1px solid #ffffff55;
+                border: 3px solid #ffffff55;
             }
             .hero-card h2 {
                 font-size: 1.2rem;
@@ -210,6 +210,8 @@
             .hero-card .role {
                 color: #a9eee6;
                 font-weight: 600;
+                margin-top: 10px;
+                font-size: 20px;
             }
             .contact-list {
                 display: grid;
@@ -617,7 +619,10 @@
     <body>
         <header class="topbar">
             <div class="wrap nav">
-                <a class="brand" href="#home">Ahmed Elsayed<span>.</span></a>
+                <a class="brand lang-text"  href="#home" data-ar="أحمد السيد" data-en="Ahmed Elsayed">Ahmed Elsayed<span></span></a>
+
+
+
                 <nav aria-label="Main navigation" class="navlinks">
                     <a href="#about"><span class="lang-text" data-ar="نبذة عني" data-en="About">About</span></a
                     ><a href="#experience"
@@ -646,7 +651,8 @@
                                 >Professional Profile</span
                             >
                         </div>
-                        <h1>Ahmed Elsayed<br />Elsayed Abdelrahman</h1>
+                        <!-- <h1>Ahmed Elsayed<br />Elsayed Abdelrahman</h1> -->
+                        <h1 class="lang-text" data-ar="أحمد السيد السيد  عبد الرحمن" data-en="Ahmed Elsayed Elsayed Abdelrahman" >Ahmed Elsayed<br />Elsayed Abdelrahman</h1>
                         <p>
                             <span
                                 class="lang-text"
@@ -1403,7 +1409,7 @@
         <footer>
             <div class="wrap footer-inner">
                 <div>
-                    <strong>Ahmed Elsayed Elsayed Abdelrahman aaa</strong>
+                    <strong>Ahmed Elsayed Elsayed Abdelrahman</strong>
                     <div>
                         <span
                             class="lang-text"
